@@ -5,7 +5,11 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
-                .n
+                <div className="navbar-container">
+                    <Link to="/" className="navbar-logo">
+                        
+                    </Link>
+                </div>
             </nav>
         </>
     )
