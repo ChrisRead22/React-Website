@@ -8,6 +8,9 @@ function App() {
   <>
    <Router>
       <Navbar />
+      <Switch>
+        <Route path="/" exact />
+      </Switch>
     </Router>
   </>
   );
