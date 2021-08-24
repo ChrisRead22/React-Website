@@ -24,11 +24,13 @@ export const Button = ({
 
     return (
         <Link to='/sign-up' className='btn-mobile'>
-            <button>
+            <button
+            className={`btn${checkButtonStyle} ${checkButtonSize}`}
+            onClick={onClick}
+            type={type}
+            >
                 {children}
             </button>
-
-            <Button>Get Started</Button>
 
         </Link>
     )
