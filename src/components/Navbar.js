@@ -3,10 +3,12 @@ import {Link} from 'react-router-dom';
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const []
+    const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+
+    
 
     return (
         <>
