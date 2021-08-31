@@ -19,7 +19,8 @@ function Navbar() {
     };
 
     useEffect(() => {
-        showButton();
+        showButton()
+    }, []);
 
     window.addEventListener('resize', showButton);
 
